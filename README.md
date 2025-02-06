@@ -1,6 +1,6 @@
 # FastAPI CORS Cookie Example
 
-A simple example demonstrating how to set cookies across different domains using FastAPI with CORS support.
+A simple example demonstrating how to set cookies across different domains using FastAPI with CORS support. 
 
 
 
@@ -12,7 +12,8 @@ A simple example demonstrating how to set cookies across different domains using
 2. Frontend
 - NodeJS 
 - Express.js
-- Nodemon
+- Nodemon  
+- React + Axois (optional)
 
 ## Installation
 
@@ -21,6 +22,11 @@ A simple example demonstrating how to set cookies across different domains using
 pip install fastapi uvicorn
 npm install express
 npm install -g nodemon
+```
+2. React (Optional)
+```
+cd clientReact
+npm install
 ```
 
 ## Usage
@@ -37,10 +43,17 @@ nodemon client.js
 ```
 The frontend will run at `http://localhost:3000`  
 
-3. Click `Set Cookie` button to fetch setcookie.  
+3.  (Optional) Start React client 
+```
+cd clientReact
+npm run dev
+```
+The React frontend will run at `http://localhost:5173`  
+
+4. Click `Set Cookie` button to fetch setcookie.  
 ![Frontend Page](page.png)
 
-4. Check the browser tool to see the cookie.  
+5. Check the browser tool to see the cookie.  
 ![Frontend Page](tools.png)
 ## API Endpoints
 
