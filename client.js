@@ -1,10 +1,6 @@
 const express = require('express');
-const nodemon = require('nodemon');
 
 const app = express();
-
-// Serve static files from public directory
-app.use(express.static('public'));
 
 app.get('/', (req, res) => {
     const htmlContent = `
