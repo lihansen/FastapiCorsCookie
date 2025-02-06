@@ -37,10 +37,10 @@ nodemon client.js
 ```
 The frontend will run at `http://localhost:3000`  
 
-3. Click `Set Cookie` button to fetch setcookie.
+3. Click `Set Cookie` button to fetch setcookie.  
 ![Frontend Page](page.png)
 
-4. Check the browser tool to see the cookie.
+4. Check the browser tool to see the cookie.  
 ![Frontend Page](tools.png)
 ## API Endpoints
 
